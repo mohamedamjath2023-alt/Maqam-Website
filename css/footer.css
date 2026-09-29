@@ -1,0 +1,69 @@
+/* FOOTER — section styles, including responsive rules. */
+
+footer { background:#060c19;color:#c2cbe0;border-top:1px solid #718abd1a;padding:45px 0 22px }
+
+.footer-top { display:flex;align-items:center;justify-content:space-between;gap:35px;padding-bottom:37px }
+
+.footer-brand { display:flex;align-items:center;gap:13px }
+
+.footer-brand .brand-mark { width:45px;height:45px }
+
+.footer-top nav { display:flex;gap:24px;font-size:12px }
+
+.footer-top nav a:hover { color:#7ed8e1 }
+
+.socials { display:flex;gap:9px }
+
+.socials>a, .social-placeholder { width:35px;height:35px;border:1px solid #364258;border-radius:50%;display:grid;place-items:center;position:relative }
+
+.socials .icon { width:15px;height:15px }
+
+.social-placeholder { color:#8e9cb7 }
+
+.social-tooltip { display:none;position:absolute;bottom:46px;right:0;border:1px solid #5c739e;background:#13213b;color:white;border-radius:4px;padding:6px 10px;white-space:nowrap;font-size:12px }
+
+.social-placeholder:hover .social-tooltip, .social-placeholder:focus .social-tooltip { display:block }
+
+.footer-bottom { border-top:1px solid #29364c;display:flex;align-items:center;gap:25px;justify-content:space-between;padding-top:24px;font-size:12px;color:#9aa8c0 }
+
+.footer-bottom>span { font-size:16px }
+
+.footer-bottom>a { display:flex;align-items:center;gap:13px }
+
+.footer-bottom .icon { width:15px;height:15px }
+
+@media(max-width:1200px) {
+.footer-top nav { gap:17px }
+.footer-top { gap:20px }
+}
+
+@media(max-width:1000px) {
+.footer-top { flex-wrap:wrap }
+.footer-top nav { order:3;justify-content:center;width:100%;margin-top:15px;font-size:13px }
+.footer-bottom>span { display:none }
+}
+
+@media(max-width:700px) {
+.footer-top nav { flex-wrap:wrap;gap:15px 23px;justify-content:flex-start;margin-top:17px }
+.footer-top { padding-bottom:29px }
+.footer-brand .brand-mark { width:37px;height:37px }
+.footer-brand { gap:10px }
+.socials { gap:7px }
+.socials>a, .social-placeholder { width:31px;height:31px }
+.footer-bottom { align-items:flex-start;gap:18px;line-height:1.75 }
+.footer-bottom p { max-width:240px;font-size:12px }
+.footer-bottom>a { white-space:nowrap;font-size:12px;gap:7px }
+footer { padding-top:34px }
+}
+
+@media(max-width:380px) {
+.footer-brand .brand-mark { width:32px }
+.footer-bottom { display:block }
+.footer-bottom>a { margin-top:17px }
+}
+
+.footer-bottom p, .footer-bottom>a { font-size:12px }
+
+@media(max-width:700px) {
+.footer-top { gap:25px }
+}

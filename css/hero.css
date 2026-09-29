@@ -1,0 +1,120 @@
+/* HERO — section styles, including responsive rules. */
+
+.hero { position:relative;min-height:805px;min-height:min(850px,100svh);background:#060918;color:white;isolation:isolate;padding-top:210px;padding-bottom:205px;overflow:visible }
+
+.hero-glow { position:absolute;inset:0;z-index:-4;background:radial-gradient(ellipse at 29% 43%,#362271 0%,#19295f 27%,#091126 58%,#050914 84%);overflow:hidden }
+
+.hero-glow::after { content:'';position:absolute;width:50vw;height:40vw;left:12%;top:5%;background:radial-gradient(ellipse,#5231a344,transparent 70%);filter:blur(30px) }
+
+.hero-facet { position:absolute;inset:0;pointer-events:none }
+
+.facet-one { z-index:-3;clip-path:polygon(100% 0,100% 100%,28% 100%);background:linear-gradient(139deg,#0a143a 33%,#205ade 58%,#226aba 75%,#102b56 100%);opacity:.85 }
+
+.facet-two { z-index:-2;clip-path:polygon(100% 0,100% 100%,69% 100%,77% 44%);background:linear-gradient(167deg,#040b19 15%,#0b2150aa 70%,#12428688) }
+
+.hero-edge { position:absolute;inset:0;z-index:-1;background:linear-gradient(135deg,transparent,#86acff33);clip-path:polygon(99.85% 0,100% 0,28.15% 100%,28% 100%) }
+
+.hero-content { position:relative;z-index:2 }
+
+.hero-eyebrow { color:#c1c8e1;margin-bottom:31px }
+
+.hero h1 { font-family:'Maqam Display','Arial Narrow',Arial,sans-serif;font-size:clamp(62px,7.35vw,106px);font-weight:700;line-height:1.03;letter-spacing:.007em;max-width:1080px }
+
+.hero-bottom { display:flex;align-items:center;gap:76px;margin-top:33px }
+
+.hero-bottom>p { font-size:17px;line-height:1.75;color:#c5cce3 }
+
+.hero-bottom .button { white-space:nowrap }
+
+.hero-location { font-size:12px;letter-spacing:.08em;text-transform:uppercase;display:flex;gap:8px;align-items:center;color:#a7b8d4;margin-top:43px }
+
+.hero-location .icon { width:15px;height:15px }
+
+.background-phrase { position:absolute;z-index:0;right:6%;bottom:107px;font-family:'Maqam Display','Arial Narrow',sans-serif;letter-spacing:.03em;font-size:clamp(38px,5vw,72px);font-weight:600;color:#8ba9e029;white-space:nowrap;pointer-events:none }
+
+.scroll-cue { position:absolute;right:5%;bottom:190px;border:1px solid #b7cffc44;border-radius:50%;width:48px;height:48px;display:grid;place-items:center;color:#d7e3ff }
+
+.scroll-cue:hover { background:#416ca94d }
+
+.scroll-cue .icon { width:18px }
+
+.welcome-wrap { position:absolute;z-index:3;bottom:-65px;left:0;right:0 }
+
+.welcome-card { display:flex;align-items:center;gap:28px;min-height:151px;padding:32px 42px;border-radius:12px;background:linear-gradient(109deg,#16429f 0%,#1f68c0 55%,#178e9c 100%);border:1px solid #81cdff55;box-shadow:0 13px 36px #16477d26,inset 0 1px 1px #ffffff2e;position:relative;overflow:hidden }
+
+.welcome-card::after { content:'';position:absolute;right:50px;top:-120px;width:330px;height:330px;border:1px solid #9ef2ee20;transform:rotate(30deg);pointer-events:none }
+
+.welcome-icon { width:74px;height:74px;flex-shrink:0;display:grid;place-items:center;border:1px solid #ffffff33;border-radius:50%;background:#ffffff0b }
+
+.welcome-icon .brand-mark { width:48px;height:48px }
+
+.welcome-card h2 { font-size:28px;font-weight:550;letter-spacing:-.02em;margin-bottom:9px }
+
+.welcome-card p { font-size:14px;max-width:620px;color:#e0efff;line-height:1.7 }
+
+.welcome-cta { display:flex;align-items:center;gap:18px;margin-left:auto;white-space:nowrap;font-size:14px;font-weight:600;position:relative;z-index:1 }
+
+.welcome-cta .icon { border:1px solid #ffffff55;border-radius:50%;width:43px;height:43px;padding:11px;transition:background .2s }
+
+.welcome-cta:hover .icon { background:#ffffff22 }
+
+@media(min-width:1600px) {
+.hero { padding-top:225px;min-height:870px }
+.hero h1 { font-size:110px }
+.background-phrase { right:10% }
+}
+
+@media(max-width:1200px) {
+.hero h1 { font-size:8.1vw }
+.hero { min-height:750px;padding-top:203px;padding-bottom:190px }
+.hero-bottom { gap:50px }
+.welcome-card { padding:27px 30px;gap:23px }
+.welcome-card p { max-width:530px }
+}
+
+@media(max-width:1000px) {
+.hero { min-height:740px;padding-top:185px }
+.hero h1 { font-size:8.65vw }
+.hero-bottom { gap:36px }
+.hero-bottom>p { font-size:16px }
+.hero .button { padding:14px 18px;gap:16px }
+.hero-location { margin-top:35px }
+.welcome-card { gap:20px }
+.welcome-icon { display:none }
+.welcome-card p { max-width:480px }
+.welcome-card h2 { font-size:26px }
+}
+
+@media(max-width:700px) {
+.hero { min-height:780px;min-height:780px;padding-top:159px;padding-bottom:210px }
+.hero h1 { font-size:clamp(30px,9.8vw,68px);line-height:1.05;letter-spacing:.006em }
+.hero-eyebrow { font-size:12px;letter-spacing:.14em;gap:9px;margin-bottom:25px }
+.hero-eyebrow>span { width:22px }
+.facet-one { clip-path:polygon(100% 8%,100% 100%,0 100%);opacity:.63 }
+.facet-two { clip-path:polygon(100% 8%,100% 100%,58% 100%,78% 47%) }
+.hero-edge { display:none }
+.hero-bottom { display:block;margin-top:26px }
+.hero-bottom>p { font-size:15px;line-height:1.8 }
+.hero-bottom .button { margin-top:26px }
+.hero-location { font-size:12px;letter-spacing:.04em;margin-top:29px }
+.hero-location .icon { width:14px }
+.background-phrase { font-size:36px;right:20px;bottom:139px }
+.scroll-cue { display:none }
+.welcome-wrap { bottom:-103px }
+.welcome-card { display:block;padding:27px 25px;border-radius:9px;min-height:204px }
+.welcome-card h2 { font-size:24px }
+.welcome-card p { font-size:13px;max-width:100% }
+.welcome-cta { margin-top:19px;justify-content:space-between;font-size:13px;gap:12px }
+.welcome-cta .icon { width:32px;height:32px;padding:8px }
+.welcome-card::after { right:-180px;top:-180px }
+}
+
+@media(max-width:380px) {
+.hero h1 { font-size:9.8vw }
+.hero { min-height:745px }
+.hero-eyebrow { font-size:12px }
+.welcome-card h2 { font-size:22px }
+.welcome-card { padding:25px 22px }
+}
+
+.hero-eyebrow, .hero-location { font-size:12px }

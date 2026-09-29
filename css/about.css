@@ -1,0 +1,77 @@
+/* ABOUT — section styles, including responsive rules. */
+
+.about { padding:168px 0 102px;background:radial-gradient(ellipse at 100% 60%,#e7edf8,transparent 60%),#f7f9fc }
+
+.about-grid { display:grid;grid-template-columns:1fr 1.03fr;gap:94px;align-items:center }
+
+.about-visual { position:relative;border-radius:8px;overflow:hidden;min-height:440px;aspect-ratio:1.06;background:#142746 }
+
+.about-visual>img { height:100%;position:absolute;inset:0 }
+
+.image-tint { position:absolute;inset:0;background:linear-gradient(180deg,#17336522 10%,#0b1932dd 100%);mix-blend-mode:multiply }
+
+.image-caption { position:absolute;left:32px;right:25px;bottom:36px;color:white }
+
+.small-label { font-size:12px;letter-spacing:.16em;font-weight:600;color:#9ae5f0 }
+
+.image-caption p { font-size:31px;letter-spacing:-.02em;line-height:1.2;margin:16px 0 25px }
+
+.caption-location { display:flex;align-items:center;gap:8px;font-size:12px;color:#d2dfef }
+
+.caption-location .icon { width:15px;height:15px }
+
+.photo-note { position:absolute;top:18px;right:18px;font-size:12px;background:#071327bb;color:#e2e9f4;padding:4px 9px;border-radius:3px }
+
+.about-copy h2 { margin-bottom:26px }
+
+.about-copy>p:not(.eyebrow) { color:#647085;margin-top:18px;font-size:16px;line-height:1.8 }
+
+.arabic-name { font-size:23px;color:#254477;text-align:left;margin:24px 0 }
+
+.about-copy .text-link { margin-top:5px }
+
+@media(max-width:1200px) {
+.about-grid { gap:54px }
+}
+
+@media(max-width:1000px) {
+.about-grid { gap:36px;grid-template-columns:.92fr 1fr }
+.about-visual { min-height:440px }
+.about-copy h2 { font-size:36px }
+.about-copy>p:not(.eyebrow) { font-size:15px }
+}
+
+@media(max-width:700px) {
+.about { padding:173px 0 67px }
+.about-grid { grid-template-columns:1fr;gap:35px }
+.about-copy { order:-1 }
+.about-copy h2 { font-size:38px }
+.about-copy>p:not(.eyebrow) { font-size:16px }
+.about-visual { min-height:0;aspect-ratio:1.12 }
+.image-caption { left:25px;bottom:29px }
+.image-caption p { font-size:28px }
+.image-caption .small-label { font-size:12px }
+.photo-note { font-size:12px }
+}
+
+.photo-note, .small-label { font-size:12px }
+
+/* Vision and mission from the company brochure. */
+.mission-vision{display:grid;gap:20px;border-top:1px solid #d7e2ee;padding-top:22px;margin:23px 0}.mission-vision h3{font-size:20px;color:#20416a;margin-bottom:9px}.mission-vision p{font-size:15px;line-height:1.8;color:#60738a}.about-grid{align-items:start}.about-visual{position:sticky;top:125px}@media(max-width:700px){.about-visual{position:relative;top:auto}}
+
+/* Owner portrait and editable mission / vision. */
+.leadership-grid{display:grid;grid-template-columns:minmax(240px,340px) minmax(0,1fr);gap:72px;align-items:center;margin-top:80px;padding-top:64px;border-top:1px solid #d7e2ee}
+.owner-card{position:relative;margin:0;background:#0b1730;border-radius:16px;box-shadow:0 22px 48px #10233d26;isolation:isolate}
+.owner-card:before{content:"";position:absolute;inset:14px -12px -12px 14px;border:1px solid #bd9959;border-radius:16px;z-index:-1}
+.owner-photo{height:350px;overflow:hidden;border-radius:16px 16px 0 0}
+.owner-photo img{width:100%;height:100%;display:block;object-fit:cover;object-position:50% 88%}
+.owner-card figcaption{position:relative;padding:25px 28px 27px;border-top:3px solid #c4a56b;background:linear-gradient(120deg,#10294a,#081426);border-radius:0 0 16px 16px}
+.owner-kicker{font-size:10px;font-weight:700;letter-spacing:2.4px;color:#dcc28c}
+.owner-card h3{font-size:28px;color:#fff;margin:10px 0 6px}
+.owner-card figcaption p{font-size:12px;line-height:1.5;color:#b8bfd1;margin:0}
+.leadership-purpose h2{font-size:clamp(29px,3.2vw,44px);line-height:1.18}
+.leadership-purpose .mission-vision{border:0;padding:0;margin:28px 0 0;gap:24px}
+.leadership-purpose .mission-vision>div{border-left:2px solid #c4a56b;padding-left:22px}
+.leadership-purpose .mission-vision p{margin-bottom:0}
+@media(max-width:1000px){.leadership-grid{gap:40px;grid-template-columns:minmax(230px,300px) minmax(0,1fr)}.owner-photo{height:330px}}
+@media(max-width:700px){.leadership-grid{grid-template-columns:1fr;gap:42px;margin-top:48px;padding-top:40px}.owner-card{width:calc(100% - 12px);max-width:340px;margin:0 auto}.owner-photo{height:350px}.leadership-purpose{padding-top:4px}}

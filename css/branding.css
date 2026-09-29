@@ -1,0 +1,65 @@
+/* BRANDING — section styles, including responsive rules. */
+
+.wordmark { font-weight:700;font-size:33px;letter-spacing:.14em;line-height:1.1;display:block }
+
+.wordmark>span { display:block;font-size:12px;letter-spacing:.17em;font-weight:500;margin-top:7px;line-height:1.5 }
+
+.footer-brand .wordmark { font-size:25px;color:#f5f8ff }
+
+.footer-brand .wordmark>span { font-size:6.5px }
+
+@media(max-width:700px) {
+.wordmark { font-size:26px }
+.wordmark>span { font-size:6.5px }
+.footer-brand .wordmark { font-size:23px }
+.footer-brand .wordmark>span { font-size:6px }
+}
+
+@media(max-width:380px) {
+.footer-brand .wordmark { font-size:20px }
+}
+
+@font-face { font-family:'Maqam Brand';src:url('../assets/maqam-brand-bold-italic.otf') format('opentype');font-weight:700;font-style:italic;font-display:swap }
+
+.logo-art { position:relative;display:block;width:60px;height:60px;flex-shrink:0;overflow:hidden;background:#f5f5ef;border-radius:50%;border:1px solid #ceb57a80 }
+
+.logo-art img { position:absolute;width:244%;max-width:none;height:auto;left:-74%;top:-18%;object-fit:initial }
+
+.header-mark .logo-art { width:61px;height:61px }
+
+.welcome-icon .logo-art { width:59px;height:59px }
+
+.footer-brand .logo-art { width:61px;height:61px }
+
+.company-wordmark { font-family:'Maqam Brand',Georgia,serif;font-style:italic;font-weight:700;font-size:27px;letter-spacing:-.025em;line-height:1.03;color:#fff }
+
+.company-wordmark>span.company-wordmark-sub { font-family:inherit;font-size:19px;letter-spacing:0;font-weight:700;line-height:1.05;margin-top:4px;color:#dcc28c }
+
+.company-wordmark>span.company-wordmark-ar { font-family:Arial,sans-serif;font-size:12px;letter-spacing:0;font-weight:400;font-style:normal;margin-top:7px;color:#c6cede;text-align:left }
+
+.footer-brand .company-wordmark { font-size:26px }
+
+.footer-brand .company-wordmark-sub { font-size:18px }
+
+@media(max-width:1200px) {
+.company-wordmark { font-size:24px }
+.company-wordmark>span.company-wordmark-sub { font-size:18px }
+}
+
+@media(max-width:700px) {
+.company-wordmark { font-size:22px;white-space:nowrap }
+.company-wordmark>span.company-wordmark-sub { font-size:17px }
+.company-wordmark>span.company-wordmark-ar { font-size:12px }
+.header-mark .logo-art { width:46px;height:46px }
+.footer-brand .company-wordmark { font-size:24px }
+.footer-brand .company-wordmark-sub { font-size:18px }
+.footer-brand .logo-art { width:51px;height:51px }
+}
+
+@media(max-width:380px) {
+.company-wordmark { font-size:21px }
+.footer-brand .company-wordmark { font-size:23px }
+}
+
+/* Use the brochure's already-framed original MEP logo without cropping it. */
+.logo-art img{width:100%;height:100%;left:0;top:0;object-fit:contain}.logo-art{border-radius:10px}
