@@ -5,7 +5,7 @@
 
   C.about = {
   "ownerImage": "assets/owner-portrait.jpeg",
-  "ownerLabel": "Owner",
+  "ownerLabel": "Director",
   "title": "Engineering across\nindustries.",
   "text": "Maqam Engineering Projects SPC is an Omani multidisciplinary engineering company based in Al Hail South, Muscat. Our service portfolio supports the oil & gas, construction and transportation industries.",
   "second": "We undertake design, engineering, supply, fabrication, blasting and painting, testing, installation, maintenance and refurbishment. Our broader services include civil construction, electrical works, chemical supply, waste management, manpower and inspection support.",
@@ -41,7 +41,7 @@
 </div>
 <div class="container leadership-grid">
 <figure class="owner-card">
-<div class="owner-photo"><img src="${E(C.about.ownerImage)}" alt="Owner of Maqam Engineering Projects SPC" width="899" height="1599" loading="lazy"></div>
+<div class="owner-photo"><img src="${E(C.about.ownerImage)}" alt="Director of Maqam Engineering Projects SPC" width="899" height="1599" loading="lazy"></div>
 <figcaption><span class="owner-kicker">OUR LEADERSHIP</span><h3>${E(C.about.ownerLabel)}</h3><p>Maqam Engineering Projects SPC</p></figcaption>
 </figure>
 <div class="leadership-purpose"><p class="eyebrow"><span></span>OUR DIRECTION</p>

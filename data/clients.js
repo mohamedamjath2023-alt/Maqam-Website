@@ -28,39 +28,15 @@ window.MAQAM_CONTENT.clients = [
     "logo": "assets/clients/clients-2-7.png"
   },
   {
-    "name": "ORPIC",
-    "logo": ""
+    "name": "OQ",
+    "logo": "assets/clients/oq.jpeg"
   },
   {
-    "name": "Voltas Oman",
-    "logo": "assets/clients/voltas.webp"
-  },
-  {
-    "name": "SURTECH",
-    "logo": ""
-  },
-  {
-    "name": "GE Energy",
-    "logo": "assets/clients/ge.svg"
-  },
-  {
-    "name": "MAN",
-    "logo": "assets/clients/man.png"
-  },
-  {
-    "name": "Hyundai",
-    "logo": "assets/clients/hyundai.png"
+    "name": "Al Maha",
+    "logo": "assets/clients/al-maha.jpeg"
   },
   {
     "name": "be’ah",
     "logo": "assets/clients/beah.png"
-  },
-  {
-    "name": "Star Petroleum Service",
-    "logo": ""
-  },
-  {
-    "name": "Grand Millennium Hotel",
-    "logo": "assets/clients/grand-millennium.png"
   }
 ];
