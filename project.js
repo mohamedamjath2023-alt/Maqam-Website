@@ -1,7 +1,7 @@
 'use strict';
 const C=window.MAQAM_CONTENT;
 const E=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const project=C.projects.find(p=>p.slug===document.body.dataset.project);
+const project=(window.MAQAM_PROJECT_CATALOG||[]).find(p=>p.aliases.includes(document.body.dataset.project))||C.projects.find(p=>p.slug===document.body.dataset.project);
 const arrow='<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg>';
 const logo=`<span class="wordmark company-wordmark">Maqam Engineering<span class="company-wordmark-sub">Projects SPC</span><span class="company-wordmark-ar" lang="ar" dir="rtl">${E(C.company.arabic)}</span></span>`;
 const mark='<span class="logo-art"><img src="../assets/brochure/maqam-logo.png" alt="MEP — Maqam Engineering Projects logo" width="391" height="396"></span>';
