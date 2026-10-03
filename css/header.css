@@ -97,3 +97,6 @@
 .header-identity .brand-gold{color:#dcc28c}
 
 @media(min-width:1181px){.main-site-header .nav-inner{gap:16px}.main-site-header .desktop-nav{gap:18px}.main-site-header .desktop-nav a{font-size:10px}}
+
+/* Let the larger company name wrap on narrow phones. */
+@media(max-width:360px){.header-identity-name{white-space:normal}}
