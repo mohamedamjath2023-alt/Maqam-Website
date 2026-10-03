@@ -8,6 +8,5 @@ window.MAQAM_CONTENT.company = {
   "address": "Post Box 1672, Postal Code 133, Al Hail South, Muscat, Sultanate of Oman",
   "phone": "+968 93677097",
   "email": "shaffi@maqameng.om",
-  "generalEmail": "info@maqameng.om",
   "website": "www.maqameng.om"
 };

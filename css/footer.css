@@ -67,3 +67,16 @@ footer { padding-top:34px }
 @media(max-width:700px) {
 .footer-top { gap:25px }
 }
+
+/* Larger bilingual footer identity. */
+footer .footer-brand .company-wordmark{font-size:32px;white-space:normal}
+.footer-brand .company-wordmark>span.company-wordmark-sub{font-size:24px}
+.footer-brand .company-wordmark>span.company-wordmark-ar{font-size:20px;line-height:1.5}
+.footer-brand{min-width:0}
+.footer-top{flex-wrap:wrap}
+.footer-bottom>span{font-size:20px}
+@media(max-width:700px){
+footer .footer-brand .company-wordmark{font-size:28px}
+.footer-brand .company-wordmark>span.company-wordmark-sub{font-size:22px}
+.footer-brand .company-wordmark>span.company-wordmark-ar{font-size:18px}
+}

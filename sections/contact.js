@@ -28,7 +28,6 @@
 <div class="contact-details">
 <a href="tel:${E(C.company.phone.replace(/\s/g,''))}">${icon('phone')}${E(C.company.phone)}</a>
 <a href="mailto:${E(C.company.email)}">${icon('mail')}${E(C.company.email)}</a>
-<a href="mailto:${E(C.company.generalEmail)}">${icon('mail')}${E(C.company.generalEmail)}</a>
 <div>${icon('pin')}<span>${E(C.company.address)}</span>
 </div>
 <a href="https://${E(C.company.website)}" target="_blank" rel="noopener noreferrer">${icon('globe')}${E(C.company.website)}</a>
