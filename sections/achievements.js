@@ -1,7 +1,7 @@
-// ACHIEVEMENTS — count stays aligned with the displayed project showcase.
+// ACHIEVEMENTS — approved completed-project count, independent of gallery size.
 (function(){
  const M=window.Maqam;
- const completed=()=>M.featuredProjects().length;
+ const completed=()=>3;
  M.sections.achievements=()=>`<section class="achievements" id="achievements" aria-labelledby="achievements-title"><div class="container achievements-layout"><div class="achievements-copy"><p class="eyebrow"><span></span>EXPERIENCE IN ACTION</p><h2 id="achievements-title">Commitment delivered.<br>Project after project.</h2><p>From canopy installations to fabrication, construction and site improvements, our work reflects a commitment to reliable execution.</p><a class="text-link" href="#projects">Explore our project experience ${M.icon('arrow')}</a></div><div class="achievement-total"><span class="achievement-number" data-project-count="${completed()}" aria-hidden="true">${completed()}</span><span class="achievement-label" aria-hidden="true">Projects successfully completed</span><span class="sr-only">${completed()} projects successfully completed.</span><span class="achievement-rule" aria-hidden="true"></span><p>Across our documented project portfolio</p></div></div></section>`;
  M.init.achievements=()=>{
   const section=document.getElementById('achievements'),number=document.querySelector('[data-project-count]');
