@@ -75,8 +75,8 @@
 /* Main-page company name: one English line and a larger Arabic legal name. */
 .main-site-header .brand{min-width:0;flex-shrink:0}
 .header-identity{display:block;color:#fff}
-.header-identity-name{display:block;font-family:'Maqam Brand',Georgia,serif;font-style:italic;font-weight:700;font-size:28px;line-height:1.2;letter-spacing:0;white-space:nowrap}
-.header-identity-arabic{display:block;width:max-content;max-width:100%;font-family:Arial,sans-serif;font-size:22px;line-height:1.4;font-weight:500;font-style:normal;letter-spacing:0;margin-top:7px;color:#dce5f5;white-space:nowrap;text-align:left}
+.header-identity-name{display:block;font-family:'Maqam Brand',Georgia,serif;font-style:italic;font-weight:700;font-size:32px;line-height:1.2;letter-spacing:0;white-space:nowrap}
+.header-identity-arabic{display:block;width:max-content;max-width:100%;font-family:Arial,sans-serif;font-size:26px;line-height:1.4;font-weight:500;font-style:normal;letter-spacing:0;margin-top:7px;color:#dce5f5;white-space:nowrap;text-align:left}
 .main-site-header .desktop-nav a{white-space:nowrap}
 .main-site-header .nav-inner{gap:25px}
 @media(max-width:1180px){
@@ -89,11 +89,14 @@
 .main-site-header .brand{grid-column:1;min-width:0}
 .main-site-header .menu-toggle{grid-column:2;margin-left:0}
 .main-site-header .header-mark{display:none}
-.header-identity-name{font-size:clamp(16px,4.5vw,28px)}
-.header-identity-arabic{font-size:clamp(18px,4.9vw,22px);margin-top:8px}
+.header-identity-name{font-size:clamp(20px,calc(4.5vw + 4px),32px)}
+.header-identity-arabic{font-size:clamp(22px,calc(4.9vw + 4px),26px);margin-top:8px}
 }
 
 /* Gold lettering preserves the single-line bilingual identity. */
 .header-identity .brand-gold{color:#dcc28c}
 
 @media(min-width:1181px){.main-site-header .nav-inner{gap:16px}.main-site-header .desktop-nav{gap:18px}.main-site-header .desktop-nav a{font-size:10px}}
+
+/* Let the larger company name wrap on narrow phones. */
+@media(max-width:360px){.header-identity-name{white-space:normal}}
