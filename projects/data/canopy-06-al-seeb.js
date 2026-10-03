@@ -4,7 +4,7 @@ window.MAQAM_CONTENT.projects.push({
   "type": "completed",
   "category": "canopy",
   "name": "Canopy installations",
-  "title": "4-island canopy · Al Seeb",
+  "title": "4-island canopy",
   "client": "Oman Oil",
   "location": "Al Seeb",
   "timing": "2 months",

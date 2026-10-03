@@ -4,7 +4,7 @@ window.MAQAM_CONTENT.projects.push({
   "type": "completed",
   "category": "canopy",
   "name": "Canopy installations",
-  "title": "3-island canopy · Al Hail New",
+  "title": "3-island canopy",
   "client": "Oman Oil",
   "location": "Al Hail New",
   "timing": "2 months",

@@ -4,7 +4,7 @@ window.MAQAM_CONTENT.projects.push({
   "type": "completed",
   "category": "canopy",
   "name": "Canopy installations",
-  "title": "2-island canopy · Duqum",
+  "title": "2-island canopy",
   "client": "Oman Oil",
   "location": "Duqum",
   "timing": "2 months",

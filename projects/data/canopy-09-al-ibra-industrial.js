@@ -4,7 +4,7 @@ window.MAQAM_CONTENT.projects.push({
   "type": "completed",
   "category": "canopy",
   "name": "Canopy installations",
-  "title": "3-island canopy · Al Ibra Industrial",
+  "title": "3-island canopy",
   "client": "Oman Oil",
   "location": "Al Ibra Industrial",
   "timing": "2 months",

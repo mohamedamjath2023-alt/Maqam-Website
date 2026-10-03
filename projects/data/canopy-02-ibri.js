@@ -4,7 +4,7 @@ window.MAQAM_CONTENT.projects.push({
   "type": "completed",
   "category": "canopy",
   "name": "Canopy installations",
-  "title": "6-island canopy · Ibri",
+  "title": "6-island canopy",
   "client": "Oman Oil",
   "location": "Ibri",
   "timing": "2 months",

@@ -4,7 +4,7 @@ window.MAQAM_CONTENT.projects.push({
   "type": "completed",
   "category": "canopy",
   "name": "Canopy installations",
-  "title": "4-island canopy · Aqar, Shinas",
+  "title": "4-island canopy",
   "client": "Oman Oil",
   "location": "Aqar, Shinas",
   "timing": "2 months",
