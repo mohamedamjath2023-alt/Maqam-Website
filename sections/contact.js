@@ -57,13 +57,13 @@
 </div>
 <button type="button" class="copy-enquiry" id="copy-enquiry" hidden>Copy enquiry instead</button>
 </form>
-<div class="map-placeholder" aria-label="Muscat map placeholder">
+<div class="map-placeholder" aria-label="Office location">
 <div class="map-pin">${icon('pin')}</div>
 <div>
 <strong>Al Hail South, Muscat</strong>
-<span>Area map · Exact office pin to be added</span>
+<span>View our office location on Google Maps</span>
 </div>
-<a href="https://www.google.com/maps/search/?api=1&query=Al%20Hail%20South%2C%20Muscat%2C%20Oman" target="_blank" rel="noopener noreferrer" aria-label="Open Al Hail South in Google Maps">${icon('arrow')}</a>
+<a href="https://maps.app.goo.gl/VS88WKQQTMbpBRfm9" target="_blank" rel="noopener noreferrer" aria-label="Open office location in Google Maps">${icon('arrow')}</a>
 </div>
 </div>
 </div>
