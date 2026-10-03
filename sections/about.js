@@ -34,7 +34,7 @@
 <h2 id="about-title">${E(C.about.title).replace(/\n/g,'<br>')}</h2>
 <p>${E(C.about.text)}</p>
 <p>${E(C.about.second)}</p>
-<div class="arabic-name" lang="ar" dir="rtl">${E(C.company.arabic)}</div>
+
 
 <a class="text-link" href="#contact">Let’s build a working relationship ${icon('arrow')}</a>
 </div>
