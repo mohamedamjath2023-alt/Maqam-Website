@@ -57,14 +57,14 @@
 </div>
 <button type="button" class="copy-enquiry" id="copy-enquiry" hidden>Copy enquiry instead</button>
 </form>
-<div class="map-placeholder" aria-label="Office location">
+<a class="map-placeholder" href="https://www.google.com/maps/search/?api=1&amp;query=23.625969%2C58.220515" target="_blank" rel="noopener noreferrer" aria-label="Open office location in Google Maps">
 <div class="map-pin">${icon('pin')}</div>
 <div>
 <strong>Al Hail South, Muscat</strong>
 <span>View our office location on Google Maps</span>
 </div>
-<a href="https://maps.app.goo.gl/VS88WKQQTMbpBRfm9" target="_blank" rel="noopener noreferrer" aria-label="Open office location in Google Maps">${icon('arrow')}</a>
-</div>
+<span class="map-open" aria-hidden="true">${icon('arrow')}</span>
+</a>
 </div>
 </div>
 </section>
