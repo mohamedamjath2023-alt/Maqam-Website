@@ -75,3 +75,17 @@
 .leadership-purpose .mission-vision p{margin-bottom:0}
 @media(max-width:1000px){.leadership-grid{gap:40px;grid-template-columns:minmax(230px,300px) minmax(0,1fr)}.owner-photo{height:330px}}
 @media(max-width:700px){.leadership-grid{grid-template-columns:1fr;gap:42px;margin-top:48px;padding-top:40px}.owner-card{width:calc(100% - 12px);max-width:340px;margin:0 auto}.owner-photo{height:350px}.leadership-purpose{padding-top:4px}}
+
+/* Director's message and the direction that follows it. */
+.leadership-grid{align-items:start}
+.director-message h2{margin-bottom:24px}
+.director-message>p:not(.eyebrow){font-size:16px;line-height:1.85;color:#53677f;margin:0 0 20px}
+.director-message>p.director-welcome{font-size:21px;font-weight:600;color:#173455}
+.director-sectors{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 28px;margin:0 0 26px;padding-left:22px;color:#20416a;font-size:16px}
+.director-sectors li::marker{color:#178e9c}
+.director-message>p.director-philosophy{border-left:3px solid #c4a56b;padding:16px 20px;background:#edf2f8;border-radius:0 8px 8px 0;color:#173455}
+.director-philosophy strong{display:block;margin-top:5px}
+.leadership-direction{grid-column:1/-1;border-top:1px solid #d7e2ee;padding-top:40px}
+.leadership-direction .mission-vision{grid-template-columns:repeat(2,minmax(0,1fr));gap:36px;border:0;margin-top:28px;padding:0}
+.leadership-direction .mission-vision>div{border-left:2px solid #c4a56b;padding-left:22px}
+@media(max-width:700px){.director-sectors,.leadership-direction .mission-vision{grid-template-columns:1fr}.director-message h2{font-size:32px}.leadership-direction{padding-top:32px}}
