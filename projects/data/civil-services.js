@@ -67,7 +67,7 @@ window.MAQAM_CONTENT.projects.push({
   "alt": "Civil utility works with workers and safety barriers beside residential buildings",
   "gallery": [
     {
-      "image": "assets/brochure/civil-network-works.jpg",
+      "image": "assets/civil-services-cover.jpg",
       "caption": "Street-level utility network works"
     },
     {
