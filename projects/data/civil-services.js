@@ -63,8 +63,8 @@ window.MAQAM_CONTENT.projects.push({
     "Utility networks",
     "Design & construction"
   ],
-  "image": "assets/brochure/civil-network-works.jpg",
-  "alt": "Street-level utility network works",
+  "image": "assets/civil-services-cover.jpg",
+  "alt": "Civil utility works with workers and safety barriers beside residential buildings",
   "gallery": [
     {
       "image": "assets/brochure/civil-network-works.jpg",
