@@ -17,8 +17,8 @@
     "name": "Civil Services",
     "icon": "compass",
     "description": "Industrial and commercial buildings, foundations, water and sewer networks, civil infrastructure and design support.",
-    "image": "assets/brochure/civil-network-works.jpg",
-    "alt": "Street-level utility network works",
+    "image": "assets/civil-services-cover.jpg",
+    "alt": "Civil utility works with workers and safety barriers beside residential buildings",
     "slug": "civil-services",
     "id": "civil"
   },
