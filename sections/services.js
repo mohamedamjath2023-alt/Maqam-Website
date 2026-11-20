@@ -50,12 +50,12 @@
     "id": "general"
   },
   {
-    "name": "Distributor Products",
+    "name": "Wide Range of Products",
     "icon": "valve",
     "description": "Specialist sewer and cleaning vehicles, vacuum and jetting pumps, PTOs, valves, nozzles and spare parts.",
     "image": "assets/brochure/whale-vehicle-range.jpg",
     "alt": "Whale cleaning and utility vehicle product range",
-    "slug": "distributor-products",
+    "slug": "wide-range-of-products",
     "id": "products"
   }
 ];

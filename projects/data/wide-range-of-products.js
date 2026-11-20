@@ -1,10 +1,10 @@
 // BROCHURE PORTFOLIO: edit this service scope and its photos here.
 window.MAQAM_CONTENT.projects.push({
-  "slug": "distributor-products",
+  "slug": "wide-range-of-products",
   "category": "products",
   "icon": "valve",
   "title": "Cleaning vehicles, pumps & accessories",
-  "name": "Distributor Products",
+  "name": "Wide Range of Products",
   "sourceSlides": [
     18,
     19
